@@ -1,0 +1,168 @@
+ID=0
+NAME=Stanza delle Torture
+UNVISITED=Sei un giovane ricercatore universitario e un giorno, mentre pulivi casa, ti imbatti nella foto del tuo antenato John Wilson.
+John era un avventuriero pieno di vita e senza paura e sin da piccolo volevi perseguire le sue orme.
+Deicidi dunque di iniziare la tua avventura partendo dall'ultimo luogo esplorato dal tuo antenato: il tempio di Santir.
+
+Ti rechi verso il tempio ed inizi la tua esplorazione, ma all'improvviso vieni sopraffatto da dei banditi ed un forte colpo subito
+in testa ti fa perdere i sensi.
+Vieni svegliato bruscamente da una secchiata d'acqua e ti rendi conto che ti trovi rinchiuso in una stanza con una persona misteriosa.
+
+Persona misteriosa:"Svegliati!".
+-
+VISITED=Sei tornato nella stanza delle torture e si sente ancora l'odore del tuo sangue.
+-
+LOOK=Ti trovi in una cella, sei circondato da pareti sporche di sangue e di fronte a te e' presente la porta della cella.
+Noti che  le sbarre sono arruginite... forse potresti romperle.
+-
+L00K EVENT COMPLETE=Le sbarre si sono rotte, e' l'occasione giusta per muoversi.
+-
+EV3NT COMPLETE=false
+ISDARK=false
+ISLOCKED=false
+*
+ID=1
+NAME=Corridoio
+UNVISITED=Sei arrivato in un corridoio che collega diverse stanze: verso sud percepisci una forte puzza di cibo bruciato, 
+verso nord senti delle urla strazianti e ad est e' presente la cella da dove sei uscito.
+-
+VISITED=Sei arrivato in un corridoio che collega diverse stanze: verso sud percepisci una forte puzza di cibo bruciato, 
+verso nord senti delle urla strazianti e ad est e' presente la cella da dove sei uscito.
+-
+LOOK=In questa stanza sembra non esserci nulla di interessante,sara' meglio proseguire.
+-
+L00K EVENT COMPLETE=null
+-
+EV3NT COMPLETE=false
+ISDARK=false
+ISLOCKED=true
+*
+ID=2
+NAME=Stanza delle celle dei prigionieri
+UNVISITED=Ti trovi in una stanza piena di celle. Tutto d'un tratto ti senti osservato: noti che le celle sono piene di prigionieri.
+Un prigioniero richiama la tua attenzione.
+
+Prigioniero:"Ti prego liberaci, sei la nostra unica speranza!"
+
+-
+VISITED=Ti ritrovi nella stanza delle celle dei prigionieri.
+-
+LOOK=Noti che le celle sono piene di prigionieri.
+-
+L00K EVENT COMPLETE=Noti che le celle dei prigionieri sono vuote, inoltre osservi che nella stanza e' presente una nota, forse dovresti leggerla.
+-
+EV3NT COMPLETE=false
+ISDARK=false
+ISLOCKED=false
+*
+ID=3
+NAME=Alloggi delle guardie
+UNVISITED=Entri in una stanza che sembra essere l'alloggio delle guardie, noti che nella stanza e' presente una leva ed un comodino.
+All'improvviso senti una persona russare: ti accorgi che una guardia sta dormendo sul letto.
+-
+VISITED=Ritorni nell'alloggio delle guardie,qui sono presenti un comodino ed una leva.
+-
+LOOK=Nella stanza e' presente una leva, mi chiedo cosa potrebbe accadere se venisse tirata.
+-
+L00K EVENT COMPLETE=Sembra che qui non ci sia piu' niente da fare, sara' meglio proseguire.
+-
+EV3NT COMPLETE=false
+ISDARK=false
+ISLOCKED=false
+*
+ID=4
+NAME=Archivio
+UNVISITED=Ti trovi in una stanza tappezzata di progetti e mappe, sembra che questo sia il luogo dove i nemici si ritrovano per i loro scopi malefici.
+Improvvisamente nella stanza entra uno scagnozzo di Malzar.
+-
+VISITED=Ti ritrovi nella stanza degli archivi.
+-
+LOOK=Noti un tavolo con sopra un dossier, forse dovresti leggerlo.
+-
+L00K EVENT COMPLETE=La stanza brulica di piani malefici, sarebbe meglio proseguire.
+-
+EV3NT COMPLETE=false
+ISDARK=false
+ISLOCKED=false
+*
+ID=5
+NAME=Ingresso della miniera
+UNVISITED=Ti trovi all'ingresso di una miniera, noti che ci sono due tunnel: uno verso est e l'altro verso ovest.
+L'ingresso della miniera e' illuminato da delle fiaccole.
+-
+VISITED=Ti ritrovi all'ingresso di una miniera, noti che ci sono due tunnel: uno verso est e l'altro verso ovest
+-
+LOOK=Nella stanza e' presente una fiaccola, potrebbe essere utile per esplorare la miniera.
+-
+L00K EVENT COMPLETE=Sembra che qui non ci sia piu' niente da fare, sara' meglio proseguire.
+-
+EV3NT COMPLETE=false
+ISDARK=false
+ISLOCKED=false
+*
+ID=6
+NAME=Profondita' della miniera
+UNVISITED=Ti addentri nelle profondita' della miniera, noti i prigionieri di Malzar impegnati negli scavi ed improvvisamente senti la voce di Malzar.
+
+Malzar:"Finalmente avete trovato la chiave, sono sempre piu' vicino all'amuleto".
+
+Malzar si accorge della tua presenza.
+-
+VISITED=Sei ritornato nelle profondita' della miniera.
+-
+LOOK=Noti che attorno al collo di Malzar e' legata la chiave.
+-
+L00K EVENT COMPLETE=I prigionieri hanno approfittato dell'occasione per mettersi in salvo... sara' meglio proseguire.
+-
+EV3NT COMPLETE=false
+ISDARK=true
+ISLOCKED=false
+*
+ID=7
+NAME=Cucina
+UNVISITED=Ti trovi nella cucina, nella stanza e' presente un disordine indiscrivibile: ci sono pile di piatti non lavati e
+resti di cibo sul pavimento.
+-
+VISITED=Ti ritrovi nella cucina, qui il disordine e' ancora dominante. 
+-
+LOOK=Sembra che i banditi avessero fame, non e' rimasto piu' niente da mangiare. 
+Noti una dispensa ancora chiusa, forse potrebbe esserci qualcosa.
+-
+L00K EVENT COMPLETE=Non e' rimasto piu' niente da mangiare, sara' meglio muoversi.
+-
+EV3NT COMPLETE=false
+ISDARK=false
+ISLOCKED=false
+*
+ID=8
+NAME=Deposito
+UNVISITED=Entri in una stanza che sembra essere il deposito dei banditi, improvvisamente vieni subito sorpreso dalla presenza di tre cani enormi.
+I cani sono incatenati e sembra che stiano facendo la guardia ad un baule.
+-
+VISITED=Ti ritrovi nello scantinato.
+-
+LOOK=Sembra che i cani stanno facendo la guardia ad un baule.
+-
+L00K EVENT COMPLETE=I cani ti sono grati per avergli dato da mangiare ed esprimono la loro gioia scodinzolando.
+-
+EV3NT COMPLETE=false
+ISDARK=false
+ISLOCKED=false
+*
+ID=9
+NAME=Catacombe
+-
+UNVISITED=Entri in una stanza dove regna l'oscurita' , muovendoti senti uno strano scricchiolio: ti rendi conto che stai calpestando delle ossa.
+Improvvisamente senti un urlo straziante e ti accorgi di non essere solo.
+Giri lo sguardo e alle tue spalle noti che un demone con occhi rossi e zanne affilate ti osserva.
+-
+VISITED=Sei ritornato nelle catacombe, noti il diario del demone al centro della stanza.
+-
+LOOK=Noti che al centro della stanza c'e' il diario del demone.
+-
+L00K EVENT COMPLETE=null
+-
+EV3NT COMPLETE=false
+ISDARK=false
+ISLOCKED=true
+*

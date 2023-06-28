@@ -1,0 +1,28 @@
+NAME=Dialogo finale
+OP.A=Prendi amuleto
+OP.B=Distruggi amuleto
+OP.C=NULL
+RISP.A=Hai raccolto l'amuleto di Santir e decidi di tornare a casa.
+Il giorno seguente, mentre ti lavi la faccia, dallo specchio noti che i tuoi occhi emanano una luce rossa.
+-
+RISP.B=Hai distrutto l'amuleto di Santir!
+L'anima del tuo antenato adesso potra' riposare in pace.
+La tua avventura termina qui.
+-
+RISP.C=NULL
+-
+SUBO.A=NULL
+SUBO.B=NULL
+SUBO.C=NULL
+SUBR.A=NULL
+-
+SUBR.B=NULL
+-
+SUBR.C=NULL
+-
+CASE=3
+ENDDIALOG=Improvvisamente senti una voce nella tua testa...
+Voce misteriosa:"Prendimi... uccidili tutti...".
+La voce misteriosa ti guida verso un piedistallo sul quale e' riposto l'amuleto di Santir, cosa fai?
+-
+*

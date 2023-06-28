@@ -1,0 +1,30 @@
+NAME= Dialogo iniziale: stanza delle torture
+OP.A=Chi sei? Dove mi trovo !?
+OP.B=NULL
+OP.C=NULL
+RISP.A=Uomo misterioso:"Il mio nome e' Malzar". 
+Malzar:"Ti trovi nelle profondita' del tempio di Santir e questo e' il covo della mia banda".
+-
+RISP.B=NULL
+-
+RISP.C=NULL
+-
+SUBO.A=Perche' mi hai imprigionato?
+SUBO.B=Liberami subito!
+SUBO.C=Cosa ci fate qui?
+SUBR.A=Malzar:"Sei stato tu e mettere i tuoi sporchi piedi sul mio territorio". 
+
+Malzar:"Non preoccuparti, non ho intenzione di ucciderti... non ancora almeno". 
+
+Malzar:"Lavorerai per me nella miniera, ti conviene collaborare se non vuoi morire di fame".
+-
+SUBR.B=Malzar:"Questo non posso farlo, mi servono uomini per poter proseguire con gli scavi".
+-
+SUBR.C=Malzar:"Sono alla ricerca dell'amuleto di Santir, si dice che ha il potere di rendere le persone immortali e tu mi aiuterai a trovarlo".
+-
+CASE=1
+ENDDIALOG=Malzar:"Ti conviene riposare, da domani sarai il mio schiavo".
+
+Malzar esce dalla stanza e chiude la porta a chiave, sei rimasto da solo.
+-
+*

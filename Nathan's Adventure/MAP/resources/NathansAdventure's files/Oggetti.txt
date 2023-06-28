@@ -1,0 +1,398 @@
+ID=0
+NAME=sbarre
+ALIAS=barre/traverse/Sbarre/SBARRE/Barre/BARRE/Traverse/TRAVERSE
+DESCRIPTION=NULL
+-
+ISPICKABLE=false
+ISUSABLE=false
+ISPULLABLE=false
+ISWEAPON=false
+ISLEAVEABLE=false
+ISBREAKABLE=true
+ISREADABLE=false
+TEXTOFITEM=NULL
+-
+ISOPENABLE=false
+DAMAGE=NULL
+POINTSWHENPICKED=NULL
+ISBROKEN=false
+ISPULLED = false
+AUTHOR=NULL
+ISIN=false
+ISCONTAINED=false
+CONTAINEDIN=NULL
+-
+ISCONTAINER=false
+*
+ID=1
+NAME=leva
+ALIAS=sbarra/manovella/asta/palo/Leve/LEVA
+DESCRIPTION=Il movimento della leva genera un forte rumore metallico.
+-
+ISPICKABLE=false
+ISUSABLE=false
+ISPULLABLE=true
+ISWEAPON=false
+ISLEAVEABLE=false
+ISBREAKABLE=false
+ISREADABLE=false
+ISOPENABLE=false
+TEXTOFITEM=NULL
+-
+DAMAGE=NULL
+POINTSWHENPICKED=NULL
+ISBROKEN=false
+ISPULLED = false
+AUTHOR=NULL
+ISIN=false
+ISCONTAINED=false
+CONTAINEDIN=NULL
+-
+ISCONTAINER=false
+*
+ID=2
+NAME=comodino
+ALIAS=cassettiera/comodino
+DESCRIPTION=Il comodino ï¿½ fatto di legno ed ï¿½ abbastanza basso.
+-
+ISPICKABLE=false
+ISUSABLE=false
+ISPULLABLE=false
+ISWEAPON=false
+ISLEAVEABLE=false
+ISBREAKABLE=false
+ISREADABLE=false
+TEXTOFITEM=NULL
+-
+ISOPENABLE=true
+DAMAGE=NULL
+POINTSWHENPICKED=NULL
+ISBROKEN=false
+ISPULLED = false
+AUTHOR=NULL
+ISIN=false
+ISCONTAINED=false
+CONTAINEDIN=NULL
+-
+ISCONTAINER=true
+*
+ID=3
+NAME=tappi per le orecchie
+ALIAS=tappi/Tappi per le orecchie
+DESCRIPTION=Potrei dormire durante un bombardamento grazie a questi tappi.
+-
+ISPICKABLE=true
+ISUSABLE=true
+ISPULLABLE=false
+ISWEAPON=false
+ISLEAVEABLE=false
+ISBREAKABLE=false
+ISREADABLE=false
+TEXTOFITEM=NULL
+-
+ISOPENABLE=false
+DAMAGE=NULL
+POINTSWHENPICKED=5
+ISBROKEN=false
+ISPULLED = false
+AUTHOR=NULL
+ISIN=true
+ISCONTAINED=true
+CONTAINEDIN=comodino
+-
+ISCONTAINER=false
+*
+ID=4
+NAME=martello arrugginito
+ALIAS=martello
+DESCRIPTION=Il martello e' scomodo da maneggiare e presenta della ruggine.
+-
+ISPICKABLE=true
+ISUSABLE=false
+ISPULLABLE=false
+ISWEAPON=true
+ISLEAVEABLE=false
+ISBREAKABLE=false
+ISREADABLE=false
+TEXTOFITEM=NULL
+-
+ISOPENABLE=false
+DAMAGE=15
+POINTSWHENPICKED=NULL
+ISBROKEN=false
+ISPULLED = false
+AUTHOR=NULL
+ISIN=false
+ISCONTAINED=false
+CONTAINEDIN=NULL
+-
+ISCONTAINER=false
+*
+ID=5
+NAME=dossier
+ALIAS=documento/fascicolo/cartella
+DESCRIPTION=Il dossier ï¿½ pieno di carte e fogli sparsi.
+-
+ISPICKABLE=false
+ISUSABLE=false
+ISPULLABLE=false
+ISWEAPON=false
+ISLEAVEABLE=false
+ISBREAKABLE=false
+ISREADABLE=true
+TEXTOFITEM=Sono quasi vicino al ritrovamento dell'amuleto.
+Gli scavi proseguono lentamente... 
+forse avrei dovuto risparmiare qualche prigioniero.
+-
+ISOPENABLE=false
+DAMAGE=NULL
+POINTSWHENPICKED=NULL
+ISBROKEN=false
+ISPULLED = false
+AUTHOR=-Malzar
+ISIN=false
+ISCONTAINED=false
+CONTAINEDIN=NULL
+-
+ISCONTAINER=false
+*
+ID=6
+NAME=dispensa
+ALIAS=credenza
+DESCRIPTION=La dispensa sembra essere chiusa
+-
+ISPICKABLE=false
+ISUSABLE=false
+ISPULLABLE=false
+ISWEAPON=false
+ISLEAVEABLE=true
+ISBREAKABLE=false
+ISREADABLE=false
+TEXTOFITEM=NULL
+-
+ISOPENABLE=true
+DAMAGE=NULL
+POINTSWHENPICKED=NULL
+ISBROKEN=false
+ISPULLED = false
+AUTHOR=NULL
+ISIN=false
+ISCONTAINED=false
+CONTAINEDIN=NULL
+-
+ISCONTAINER=true
+*
+ID=7
+NAME=croccantini
+ALIAS=cibo
+DESCRIPTION=Cibo per cani, non credo che sia commestibile.
+-
+ISPICKABLE=true
+ISUSABLE=false
+ISPULLABLE=false
+ISWEAPON=false
+ISLEAVEABLE=true
+ISBREAKABLE=false
+ISREADABLE=false
+TEXTOFITEM=NULL
+-
+ISOPENABLE=false
+DAMAGE=NULL
+POINTSWHENPICKED=5
+ISBROKEN=false
+ISPULLED = false
+AUTHOR=NULL
+ISIN=true
+ISCONTAINED=true
+CONTAINEDIN=dispensa
+-
+ISCONTAINER=false
+*
+ID=8
+NAME=baule
+ALIAS=bagaglio/contenitore
+DESCRIPTION=Il baule sembra essere chiuso ma non e' richiesto alcun tipo di chiave per aprirlo.
+-
+ISPICKABLE=false
+ISUSABLE=false
+ISPULLABLE=false
+ISWEAPON=false
+ISLEAVEABLE=false
+ISBREAKABLE=false
+ISREADABLE=false
+TEXTOFITEM=NULL
+-
+ISOPENABLE=false
+DAMAGE=NULL
+POINTSWHENPICKED=NULL
+ISBROKEN=false
+ISPULLED = false
+AUTHOR=NULL
+ISIN=false
+ISCONTAINED=false
+CONTAINEDIN=NULL
+-
+ISCONTAINER=true
+*
+ID=9
+NAME=pugnale
+ALIAS=coltello
+DESCRIPTION=il pugnale sembra molto affilato, sara' meglio fare attenzione.
+-
+ISPICKABLE=true
+ISUSABLE=false
+ISPULLABLE=false
+ISWEAPON=true
+ISLEAVEABLE=false
+ISBREAKABLE=false
+ISREADABLE=false
+TEXTOFITEM=NULL
+-
+ISOPENABLE=false
+DAMAGE=50
+POINTSWHENPICKED=15
+ISBROKEN=false
+ISPULLED = false
+AUTHOR=NULL
+ISIN=true
+ISCONTAINED=true
+CONTAINEDIN=baule
+-
+ISCONTAINER=false
+*
+ID=10
+NAME=fiaccola
+ALIAS=fiamma/luce/torcia
+DESCRIPTION=La fiaccola e' gia' accesa ed emana una luce abbastanza forte per farsi strada nell'oscurita'.
+-
+ISPICKABLE=true
+ISUSABLE=true
+ISPULLABLE=false
+ISWEAPON=true
+ISLEAVEABLE=false
+ISBREAKABLE=false
+ISREADABLE=false
+TEXTOFITEM=NULL
+-
+ISOPENABLE=false
+DAMAGE=30
+POINTSWHENPICKED=10
+ISBROKEN=false
+ISPULLED = false
+AUTHOR=NULL
+ISIN=false
+ISCONTAINED=false
+CONTAINEDIN=NULL
+-
+ISCONTAINER=false
+*
+ID=11
+NAME=chiave misteriosa
+ALIAS=chiave
+DESCRIPTION=La chiave e' nera ed ha un aspetto tetro.
+-
+ISPICKABLE=true
+ISUSABLE=true
+ISPULLABLE=false
+ISWEAPON=false
+ISLEAVEABLE=false
+ISBREAKABLE=false
+ISREADABLE=false
+TEXTOFITEM=NULL
+-
+ISOPENABLE=false
+DAMAGE=NULL
+POINTSWHENPICKED=10
+ISBROKEN=false
+ISPULLED = false
+AUTHOR=NULL
+ISIN=false
+ISCONTAINED=false
+CONTAINEDIN=NULL
+-
+ISCONTAINER=false
+*
+ID=12
+NAME=diario di John
+ALIAS=diario/registro/agenda
+DESCRIPTION=La nota sembra essere antica ma ancora leggibile.
+-
+ISPICKABLE=false
+ISUSABLE=false
+ISPULLABLE=false
+ISWEAPON=false
+ISLEAVEABLE=false
+ISBREAKABLE=false
+ISREADABLE=true
+TEXTOFITEM=Il mio nome e' John Wilson, ho trovato l'amuleto di santir e sono caduto vittima della sua maledizione.
+L'amuleto mi ha reso immortale ma ho notato alcune anomalie.
+Col passare dei giorni il mio corpo sta subendo delle mutazioni,credo che sto per trasformarmi in un mostro.
+Sento che l'amuleto sta per possedere la mia volonta'...
+Ho provato a distruggerlo ma non ci riesco, le voci nella mia testa me lo impediscono.
+L'unica soluzione e' quella di  rinchiudermi per sempre in questa catacomba con la speranza che nessuno la apra.
+-
+ISOPENABLE=false
+DAMAGE=NULL
+POINTSWHENPICKED=NULL
+ISBROKEN=false
+ISPULLED = false
+AUTHOR=John Wilson
+ISIN=false
+ISCONTAINED=false
+CONTAINEDIN=NULL
+-
+ISCONTAINER=false
+*
+ID=13
+NAME=nota del prigioniero
+ALIAS=foglio/nota/pagina
+DESCRIPTION=Nota lasciata dal prigioniero
+-
+ISPICKABLE=false
+ISUSABLE=false
+ISPULLABLE=false
+ISWEAPON=false
+ISLEAVEABLE=false
+ISBREAKABLE=false
+ISREADABLE=true
+TEXTOFITEM=Grazie per averci liberato, in segno della mia gratitudine ti regalo 
+il mio vecchio martello, spero possa esserti utile.
+-
+ISOPENABLE=false
+DAMAGE=NULL
+POINTSWHENPICKED=NULL
+ISBROKEN=false
+ISPULLED = false
+AUTHOR=Prigioniero
+ISIN=false
+ISCONTAINED=false
+CONTAINEDIN=NULL
+-
+ISCONTAINER=false
+*
+ID=14
+NAME=spada di Malzar
+ALIAS=spada/spadone
+DESCRIPTION=La spada è insanguinata.
+-
+ISPICKABLE=true
+ISUSABLE=false
+ISPULLABLE=false
+ISWEAPON=true
+ISLEAVEABLE=false
+ISBREAKABLE=false
+ISREADABLE=false
+TEXTOFITEM=NULL
+-
+ISOPENABLE=false
+DAMAGE=80
+POINTSWHENPICKED=NULL
+ISBROKEN=false
+ISPULLED = false
+AUTHOR=NULL
+ISIN=false
+ISCONTAINED=false
+CONTAINEDIN=NULL
+-
+ISCONTAINER=false
+*

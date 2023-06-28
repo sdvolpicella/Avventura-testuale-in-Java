@@ -1,0 +1,23 @@
+NAME= Dialogo con prigioniero, celle dei prigionieri
+OP.A=Come posso liberarvi?
+OP.B=Chi siete?
+OP.C=NULL
+RISP.A=Prigioniero:"Le celle vengono aperte tramite una leva, trovala e tirala per liberarci."
+-
+RISP.B=Prigioniero:"Siamo dei minatori, siamo stati catturati e siamo stati resi schiavi da quel farabutto di Malzar".
+-
+RISP.C=NULL
+-
+SUBO.A=NULL
+SUBO.B=NULL
+SUBO.C=NULL
+SUBR.A=NULL
+-
+SUBR.B=NULL
+-
+SUBR.C=NULL
+-
+CASE=2
+ENDDIALOG=Il prigioniero e' privo di energie e si accascia a terra.
+-
+*
